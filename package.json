@@ -1,0 +1,28 @@
+{
+  "name": "newsletterapi",
+  "version": "1.0.0",
+  "description": "RESTful Newsletter API",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \\ \"Error: no test specified\\\" && exit1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/fdebarros/NewsLetter-API.git"
+  },
+  "keywords": [
+    "RESTful"
+  ],
+  "author": "fdebarros",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/fdebarros/NewsLetter-API/issues"
+  },
+  "homepage": "https://github.com/fdebarros/NewsLetter-API#readme",
+  "devDependencies": {
+    "nodemon": "^2.0.2"
+  },
+  "dependencies": {
+    "mongoose": "^5.8.11"
+  }
+}
