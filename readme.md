@@ -11,7 +11,7 @@
 
 ### What is this API made for? ###
 
-##### This API was made to be used with my other project, the *Newsletter Register*, this was my first ever RESFTful API. Basically both project was developed for study and learning reasons (_so maybe i haven't used the best pratices for it or even the best way to do the things. So don't goes mad with this_). At last if you think that have something i shold change, please, open a pull request. I would love to learn more with you :) .
+##### This API was made to be used with my other project, the [*Newsletter Register*](https://github.com/fdebarros/Newsletter-Register), this was my first ever RESFTful API. Basically both project was developed for study and learning reasons (_so maybe i haven't used the best pratices for it or even the best way to do the things. So don't goes mad with this_). At last if you think that have something i shold change, please, open a pull request. I would love to learn more with you :) .
 
 
 ---
