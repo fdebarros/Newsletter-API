@@ -4,12 +4,12 @@ module.exports = function(app) {
 
   // NewsLetter Routes
   app.route('/users')
-    .get(newsLetter.list_all_users)
-    .post(newsLetter.create_a_user);
+    .get(newsLetter.listAllUsers)
+    .post(newsLetter.createUser);
 
 
   app.route('/user/:userId')
-    .get(newsLetter.read_a_user)
-    .put(newsLetter.update_a_user)
-    .delete(newsLetter.delete_a_user);
+    .get(newsLetter.readUser)
+    .put(newsLetter.updateUser)
+    .delete(newsLetter.deleteUser);
 };
