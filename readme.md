@@ -18,6 +18,8 @@
 
 ### How can I run it? ###
 
+(Note: Dockerfile it's not working yet)
+
 ##### First of all, you need to install Node and MongoDB, so you can take a look on the [Node](https://linuxize.com/post/how-to-install-node-js-on-ubuntu-18.04/) and [MongoDB](https://docs.mongodb.com/manual/tutorial/install-mongodb-on-ubuntu/) tutorials.
 
 ##### After that you need to run `sudo mkdir -p /data/db`
