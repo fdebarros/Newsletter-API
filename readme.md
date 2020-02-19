@@ -18,7 +18,17 @@
 
 ### How can I run it? ###
 
-(Note: Dockerfile it's not working yet)
+### There's two ways to run it ###
+
+### Docker: ###
+
+##### To run the project using Docker i recomend using the 19.03 version or higher.
+##### Enter the project folder, then run `sudo docker build -fdebarros/news:API`
+###### _yes, it may take a long time to build_
+##### After the building you can now run `mkdir db_persistence`
+##### And finally `docker run -v $pwd/db_persistence:/data/db -p 3000:3000 --rm -ti fdebarros/news:API`
+
+### Locally: ###
 
 ##### First of all, you need to install Node and MongoDB, so you can take a look on the [Node](https://linuxize.com/post/how-to-install-node-js-on-ubuntu-18.04/) and [MongoDB](https://docs.mongodb.com/manual/tutorial/install-mongodb-on-ubuntu/) tutorials.
 
