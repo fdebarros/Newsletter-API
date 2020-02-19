@@ -23,7 +23,7 @@
 ### Docker: ###
 
 ##### To run the project using Docker i recomend using the 19.03 version or higher.
-##### Enter the project folder, then run `sudo docker build -fdebarros/news:API`
+##### Enter the project folder, then run `sudo docker build -fdebarros/news:API .`
 ###### _yes, it may take a long time to build_
 ##### After the building you can now run `mkdir db_persistence`
 ##### And finally `docker run -v $pwd/db_persistence:/data/db -p 3000:3000 --rm -ti fdebarros/news:API`
