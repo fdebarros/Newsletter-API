@@ -23,6 +23,7 @@
     "nodemon": "^2.0.2"
   },
   "dependencies": {
+    "cors": "^2.8.5",
     "mongoose": "^5.8.11"
   }
 }

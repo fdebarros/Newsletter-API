@@ -4,7 +4,19 @@ var express = require('express'),
   mongoose = require('mongoose'),
   Task = require('./api/models/newsLetterModel'), //created model loading here
   bodyParser = require('body-parser');
-  
+
+var cors = require('cors')
+
+app.use(cors())
+
+// app.get('/users', function (req, res, next){
+//   res.json({msg: 'This is CORS-enabled for all origins!'})
+// })
+ 
+app.listen(80, function () {
+  console.log('CORS-enabled web server listening on port 80')
+})
+
 // mongoose instance connection url connection
 mongoose.Promise = global.Promise;
 mongoose.connect('mongodb://localhost/NewsLetterdb'); 
