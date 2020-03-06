@@ -1,0 +1,5 @@
+build:
+    docker:
+        web: Dockerfile
+run:
+    web: -v $pwd/db_persistence:/data/db -p 3000:3000
