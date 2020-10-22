@@ -49,7 +49,7 @@
 ###### Put the URL `http://localhost:3000/users` (depending on your host mapping you'll have to use `127.0.0.1:3000/users`) and click on "SEND". You'll receive the response `[]`
 
 ##### To test POST method:
-###### Select POST, click on "Body" and "www-form-urlencoded". On the first key field enter "name", on the key field bellow you'll enter "email". On the first value field you can enter a name or whatever word you want, and on the email value you can do the same. Finally click on "SEND". You may see something like that: 
+###### Select POST, click on "Body" and "www-form-urlencoded". On the first key field enter "name", on the key field bellow you'll enter "email". On the first value field you can enter a name or whatever word you want, and on the email value you can do the same. Finally click on "SEND". You may see something like this: 
 
 
 
