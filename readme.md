@@ -35,7 +35,7 @@
 ##### After that you need to run `sudo mkdir -p /data/db`
 ##### Run `npm install --save-dev nodemon`, `npm install express --save` 
 ##### And `npm install mongoose --save`
-##### Then go to the folder you cloned this repo and run `sudo mongod`*(Don't forget run as **SU**)*
+##### Then go to the folder you cloned this repo and run `sudo mongod`*(Don't forget run as superuser)*
 ##### Finally run `sudo npm run start`
 
 ---
