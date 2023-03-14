@@ -20,7 +20,7 @@
   },
   "homepage": "https://github.com/fdebarros/NewsLetter-API#readme",
   "devDependencies": {
-    "nodemon": "^2.0.2"
+    "nodemon": "^2.0.21"
   },
   "dependencies": {
     "cors": "^2.8.5",
