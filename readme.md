@@ -11,7 +11,7 @@
 
 ### What is this API made for? ###
 
-##### This API was made to be used with my other project, the [*Newsletter Register*](https://github.com/fdebarros/Newsletter-Register), this was my first ever RESFTful API. Basically both project were developed for study and learning reasons (_so maybe I haven't used the best practices for it or even the best way to do the things. So don't get mad with this_). At last if you think that has something I should change, please, open a pull request. I would love to learn more with you :) .
+##### This API was made to be used with my other project, the [*Newsletter Register*](https://github.com/fdebarros/Newsletter-Register), this was my first ever RESFTful API. Basically both project were developed for study and learning reasons (_so maybe I haven't used the best practices for it or even the best way to do the things. So don't get mad with this_). Finally if you think there is something I should change, please, push a pull request. I would love to learn more with you :) .
 
 
 ---
@@ -23,7 +23,7 @@
 ### Docker: ###
 
 ##### To run the project using Docker i recomend using the 19.03 version or higher.
-##### Enter the project folder, then run `sudo docker build -t fdebarros/news:API .`
+##### Inside the project folder, run `sudo docker build -t fdebarros/news:API .`
 ###### _yes, it may take a loooooong time to build_
 ##### After the building you can now run `mkdir db_persistence`
 ##### And finally `docker run -v $pwd/db_persistence:/data/db -p 3000:3000 --rm -ti fdebarros/news:API`
